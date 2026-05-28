@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doação de Sangue</title>
+</head>
+<body>
+   <!--  Entrada da data de nascimento -->
+    <p>
+        <label for ="nascimento">Qual sua data de nascimento</label>
+        <input type ="date" name="nascimento" 
+        id="nascimento">
+    </p>
+    <!-- Entrada  possui alguma doença -->
+     <p>
+        <label for="">Possui alguma doença</label>
+        <input type="radio" name="sick"
+        id="inputYesSick" value="yes">
+        <label for="">Sim</label>
+        <input type="radio" name="sick"
+        id="inputNoSick" value="no">
+        <label for="inputNoSick">Não</label>
+        <p>
+            <label for="peso">Peso atual</label>
+            <input type="number" id="peso">
+            </p>
+            <!-- Entrada possui enytrada recente? -->
+             <p>
+                 <label for="">poussui tatuagem recente?</label>
+                 <input type="radio" name="tattoo"
+                 id="inputYesstattoo" value="yes"
+                 <label for="inputYessTatto">Sim</label>
+                 <input type="radio" name="tattoo"
+                 id="inputNotattoo" value="no">
+                 <label for="inputNotattoo">Não</label>
+             </p>
+
+             <label for="">Está tomando algum medicamento?</label>
+            </label>
+            <input type="radio" name="medicine"
+            id="inputYessMedicine" value="yes"
+            <label for="">Sim</label>
+            <input type="radio" name="medicine"
+            id="inputNoMedicine" value="no">
+            <label for="">Não</label>
+        </p>
+
+             <input type="button" value="Verificar" onclick="verificar()">
+
+             <p id="resultado"></p>
+             <script scr="script.js"></script>
+</html>
