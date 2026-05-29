@@ -1,4 +1,5 @@
-function verificar(){
+function verificar(event){
+    event.preventDefault();
     let nascimento = document.getElementBydId('nascimento').value;
     /* menor de idade não pode doar sangue.*/
     let doencaSelecionada = document.querySelector
@@ -28,10 +29,16 @@ function verificar(){
         let dia = dataNascimento.getDay()
         let mes = dataNascimento.getMonth()
    
-        var dia = nascimento()
-        if {
-            
+        var (idade < 18)
+         innerHTML('Voce não pode doar sangue sangue! NÃO TEM IDADE MÍNIMA')
+         else if (doença == 'sim'){
+          resultado innerHTML('Voce não pode doar sangue! ESTA DOENTE.' )
 
         }
+        else if (tattooSelecionada && ) {
+            ('não pode doar sangue')
+
+        }
+        if ()
 
 }
