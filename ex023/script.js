@@ -1,4 +1,11 @@
-for (let cont = 10; cont>=)
-{
-  console.log()
+function tabuada(){
+  var numero = Number(document.getElementById
+  ('input_numero').value)
+
+  resultado.innerHTML = 'Tabuada de <strong>${numero}</strong><br>'
+}
+
+for (var cont = 0; cont>=10; cont++){
+  resultado.innerHTML += `${numero} x$
+  {cont} = <strong>${numero * cont}</strong><br>`
 }
